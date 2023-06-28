@@ -18,7 +18,6 @@ $> chinstrap compile
 ✔ my_contract.py compilation successful!
 
 $> chinstrap originate -n development
-
 Using development network
 Loaded wallet tz1U7FSJhS8QggXhzuxQ3kRVxtZuivwrL4ho     . Balance: ꜩ 20000.022856
 
@@ -30,7 +29,10 @@ Loaded wallet tz1U7FSJhS8QggXhzuxQ3kRVxtZuivwrL4ho     . Balance: ꜩ 20000.0228
 
 ```
 
-### Note -- Setup scripts
+### Note -- Setup scripts and console.log
+
+<details>
+  <summary>Install chinstrap framework and tools.</summary>
 
 ```
 # Install chinstrap framework.
@@ -61,7 +63,10 @@ chinstrap install
 
 ```
 
-### Note -- Or try to compile with SmartPy (Legacy)
+</details>
+
+<details>
+  <summary>Or try to compile with SmartPy (Legacy)</summary>
 
 ```
 
@@ -78,3 +83,5 @@ bash <(curl -s https://smartpy.io/cli/install.sh) --prefix `pwd`/scripts/smartpy
     --private-key <edsk...>
     
 ```
+
+</details>
